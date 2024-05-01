@@ -1,4 +1,4 @@
-﻿
+
 /*  ################# 
  *	### CSS Reset ###
  *  ################# */
@@ -16,6 +16,9 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
     margin: 0;
     padding: 0;
     border: 0;
